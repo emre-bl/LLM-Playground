@@ -4,6 +4,7 @@ Sentiment analysis using pretrained task-specific model.
 
 
 from datasets import load_dataset
+from transformers.pipelines.pt_utils import KeyDataset
 
 # Load the dataset
 data = load_dataset("rotten_tomatoes")
