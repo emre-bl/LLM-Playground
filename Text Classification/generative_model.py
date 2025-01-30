@@ -1,9 +1,16 @@
 """
-Text Classification using Generative Models
-
+Text Classification using T5 Language Model
 
 : Task-specific model generates numerical values from sequences of tokens
 : Generative model generates sequences of tokens from seqeuences of tokens.
+
+This code performs sentiment analysis on movie reviews from the Rotten Tomatoes dataset
+using the FLAN-T5 model. It transforms reviews into prompted questions and classifies them
+as positive or negative. Key steps:
+- Loads and preprocesses Rotten Tomatoes dataset
+- Adds classification prompt to each review
+- Performs inference using FLAN-T5
+- Evaluates model performance using classification metrics
 """
 from datasets import load_dataset
 from transformers.pipelines.pt_utils import KeyDataset
