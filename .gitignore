@@ -3,3 +3,4 @@ llmv/
 /venv
 Text Classification/config.ini
 Advanced Text Generation/Phi-3-mini-4k-instruct-fp16.gguf
+Advanced Text Generation/Phi-3-mini-4k-instruct-q4.gguf
