@@ -1,7 +1,7 @@
-from langchain_community.llms import LlamaCpp
-from langchain.prompts import PromptTemplate
+from langchain import LlamaCpp
+from langchain import PromptTemplate
 from langchain.memory import ConversationSummaryMemory
-from langchain.chains import LLMChain
+from langchain import LLMChain
 
 # Initialize models with proper configuration
 llm = LlamaCpp(
